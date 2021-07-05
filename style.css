@@ -3,18 +3,31 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 30px;
 }
+
 .name-colour{
     color: orange;
 }
-section{
+.flexible-container{
 display: flex;
 margin-bottom: 90px;
 }
 .half{
     width: 50%;
     padding: 5%;
+}
+.skill{
+    width: 45%;
+    margin-right: 5%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+p{
+    text-align: justify;
 }
 .half img{
     width: 100%;
@@ -36,3 +49,4 @@ margin-bottom: 90px;
     background-repeat: no-repeat;
     background-position: right;
 }
+
