@@ -3,6 +3,9 @@ body{
     margin: 0;
 }
 h1{
+    font-size: 50px;
+}
+h2{
     font-size: 30px;
 }
 
@@ -11,7 +14,7 @@ h1{
 }
 .flexible-container{
 display: flex;
-margin-bottom: 90px;
+margin-bottom: 80px;
 }
 .half{
     width: 50%;
@@ -49,4 +52,21 @@ p{
     background-repeat: no-repeat;
     background-position: right;
 }
-
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,  cyan);
+    border-image-slice:1;   
+}
+#stacknew{
+    border-left: 7px solid;
+    border-image:linear-gradient(red,blue);
+    border-image-slice:1;  
+}
+footer p{
+    text-align: center;
+}
